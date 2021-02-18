@@ -1,0 +1,12 @@
+D:\Proyectos\Mentoring\Data.Mentoring\bin\Release\netcoreapp3.1\Data.Mentoring.deps.json
+D:\Proyectos\Mentoring\Data.Mentoring\bin\Release\netcoreapp3.1\Data.Mentoring.runtimeconfig.json
+D:\Proyectos\Mentoring\Data.Mentoring\bin\Release\netcoreapp3.1\Data.Mentoring.runtimeconfig.dev.json
+D:\Proyectos\Mentoring\Data.Mentoring\bin\Release\netcoreapp3.1\Data.Mentoring.dll
+D:\Proyectos\Mentoring\Data.Mentoring\bin\Release\netcoreapp3.1\Data.Mentoring.pdb
+D:\Proyectos\Mentoring\Data.Mentoring\obj\Release\netcoreapp3.1\Data.Mentoring.AssemblyInfoInputs.cache
+D:\Proyectos\Mentoring\Data.Mentoring\obj\Release\netcoreapp3.1\Data.Mentoring.AssemblyInfo.cs
+D:\Proyectos\Mentoring\Data.Mentoring\obj\Release\netcoreapp3.1\Data.Mentoring.csproj.CoreCompileInputs.cache
+D:\Proyectos\Mentoring\Data.Mentoring\obj\Release\netcoreapp3.1\Data.Mentoring.dll
+D:\Proyectos\Mentoring\Data.Mentoring\obj\Release\netcoreapp3.1\Data.Mentoring.pdb
+D:\Proyectos\Mentoring\Data.Mentoring\obj\Release\netcoreapp3.1\Data.Mentoring.genruntimeconfig.cache
+D:\Proyectos\Mentoring\Data.Mentoring\obj\Release\netcoreapp3.1\Data.Mentoring.csprojAssemblyReference.cache

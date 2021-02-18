@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <ImportDirectoryBuildProps>false</ImportDirectoryBuildProps>
+    <ImportDirectoryBuildTargets>false</ImportDirectoryBuildTargets>
+    <AssemblyTitle>4082d00e-1253-422b-8e05-b03df7dadd81</AssemblyTitle>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
+    <AssemblyName>4082d00e-1253-422b-8e05-b03df7dadd81</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <OutputPath>bin\Release</OutputPath>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <UseSharedCompilation>false</UseSharedCompilation>
+    <CodeAnalysisRuleSet></CodeAnalysisRuleSet>
+    
+    <!-- we set LangVersion after  which might contain LangVersion copied from the benchmarks project -->
+    <LangVersion Condition="'$(LangVersion)' == '' Or '$(LangVersion)' &lt; '7.3'">latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="4082d00e-1253-422b-8e05-b03df7dadd81.notcs" Exclude="bin\**;obj\**;**\*.xproj;packages\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="D:\Proyectos\Mentoring\DALMentoring\DALMentoring.csproj" />
+  </ItemGroup>
+  
+
+</Project>
