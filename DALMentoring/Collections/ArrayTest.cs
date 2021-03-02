@@ -15,13 +15,7 @@ namespace DALMentoring.Collections
             for(int i = 0; i < 10000000; i++)
             {
                 array[i] = $"Nombre{i}";
-            }
-            //array[0] = "Alex";    
-            //array[1] = "Carlos";
-            //array[2] = "Pedro";
-            //array[3] = "Raul";
-            //array[4] = "Pepe";
-            //array[5] = "Jose";            
+            }           
         }
 
         [Benchmark]

@@ -9,7 +9,7 @@ namespace DALMentoring.Mentoring
     [MemoryDiagnoser]
     [Orderer(BenchmarkDotNet.Order.SummaryOrderPolicy.FastestToSlowest)]
     [RankColumn]
-    public class BenchmarkExecutorFinal
+    public class BenchmarkExecutorGenerics
     {
         private static readonly ListManager list = new ListManager();
 

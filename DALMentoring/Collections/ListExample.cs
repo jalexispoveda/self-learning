@@ -15,13 +15,6 @@ namespace DALMentoring.Collections
             {
                 myList.Add($"Nombre{i}");
             }
-            //myList.Add("Alex");
-            //myList.Add("Carlos");
-            //myList.Add("Thomas");
-            //myList.Add("Carlos");
-            //myList.Add("Pedro");
-            //myList.Add("asdasdasd");
-            //myList.Add("Jose");
 
         }
 

@@ -5,7 +5,7 @@ namespace DALMentoring.Collections
     [MemoryDiagnoser]
     [Orderer(BenchmarkDotNet.Order.SummaryOrderPolicy.FastestToSlowest)]
     [RankColumn]
-    public class BenchMarkExecutor
+    public class BenchMarkExecutorCollections
     {
         private const string itemToFind = "Nombre9678498";
         private static readonly ArrayTest arrayTest = new ArrayTest();
@@ -25,7 +25,7 @@ namespace DALMentoring.Collections
         }
 
         [Benchmark]
-        public void FindItemForList()
+        public void FindItemForeachList()
         {
             listTest.findItemForEach(itemToFind);
         }
@@ -38,19 +38,19 @@ namespace DALMentoring.Collections
 
 
         [Benchmark]
-        public void getArrayListItem()
+        public void FindItemArrayList()
         {
             listArrayTest.getArrayListItem(itemToFind);
         }
 
         [Benchmark]
-        public void getArrayListItemEquals()
+        public void FindItemArrayListUsingEquals()
         {
             listArrayTest.getArrayListItemEquals(itemToFind);
         }
 
         [Benchmark]
-        public void getArrayListItemIndexOf()
+        public void FindItemArrayListUsingIndexOf()
         {
             listArrayTest.getArrayListItemIndexOf(itemToFind);
         }

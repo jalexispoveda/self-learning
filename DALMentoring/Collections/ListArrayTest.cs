@@ -16,13 +16,6 @@ namespace DALMentoring.Collections
             {
                 arrayList.Add($"Nombre{i}");
             }
-            //arrayList.Add("asd");
-            //arrayList.Add("Pedro");
-            //arrayList.Add(1);
-            //arrayList.Add(1);
-            //arrayList.Add("Pedro");
-            //arrayList.Add("Aquiles");
-            //arrayList.Add("Jose");
         }
 
         [Benchmark]
